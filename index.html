@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inductions</title>
+    
+</head>
+<body>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <nav id="navbar" class="navbar"> 
+        <ul id="nav-mains">
+            <li><h2 class="Navi">Sky News</h2></li>
+            <li><a class="nav" href="/home"> Home</li></a>
+            <li><a class="nav" href="/about"> About</li></a>
+            <li><a class="nav" href="/contact"> Contact Us</li></a>
+            <li><a class="nav" href="/connect"> Health Advice</li></a>
+            <li class="dark">Dark Mode</li>
+            <label class="switch">
+                <input type="checkbox" id="checkbox" class="checkbox" onclick="change()">
+                <span class="slider round"></span>
+              </label>
+        </ul>
+    </nav>
+    <div id="login">
+        <div class="login-img"></div>
+        <div class="login-form">
+            <h5 class="h5">Log In to your account </h5>
+            <h5 class="h5">to get the latest news of any type</h5>
+            <form action="post">
+                <label for="username">Username or Email</label>
+                <input id="username" type="text" placeholder="&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Enter your username ">
+                <label for="password">Password</label>
+                <input id="password" type="password" placeholder="&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Enter your password ">
+                <button class="btn" onclick="popup()">LOG IN</button>
+                <button class="forgot" onclick="forgot()">&emsp;Forgot Password?</button>
+            </form>
+        </div>
+    </div>
+    <h6 class="info">These are the various categories of news :-</h6>
+    <div id="news">
+        <ul id="titles">
+            <a href="/sports"><div class="subs"><img src="/images/sports.jpg" alt="alert"><div class="names"><div class="title">Sports</div></div></div></a>
+            <a href="/international"><div class="subs"><img src="/images/international.jpg" alt="alert"><div class="names"><div class="title">International</div></div></div></a>
+            <a href="/national"><div class="subs"><img src="/images/national.jpg" alt="alert"><div class="names"><div class="title">National</div></div></div></a>
+            <a href="/business"><div class="subs"><img src="/images/business.jpg" alt="alert"><div class="names"><div class="title">Business</div></div></div></a>
+            <a href="/cartoon"><div class="subs"><img src="/images/cartoon.jpg" alt="alert"><div class="names"><div class="title">Cartoon Works</div></div></div></a>
+            <a href="/editor"><div class="subs"><img src="/images/editor.jpg" alt="alert"><div class="names"><div class="title">Editoral</div></div></div></a>
+        </ul>
+    </div> 
+    <footer>
+        <div class="below" class="footer">
+          <div class="india">
+            <img id="flag" src="https://t3.ftcdn.net/jpg/02/44/38/58/240_F_244385846_c3STUFQvoUwfb13N0Mgc8SdxkeI1gvs8.jpg" alt="Nopes">
+            <h4>India&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Privacy Policy&emsp;|&emsp;Terms and Conditions&emsp;|&emsp;Cookies</h4>
+          </div class="copyright">
+            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;@copyright2021/MedLinePro/India Pvt. Ltd. 
+          </div>
+    </footer>
+    
+</body>
+</html>
